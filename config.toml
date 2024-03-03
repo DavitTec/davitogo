@@ -6,41 +6,43 @@ contentdir = "content"
 layoutdir = "layouts"
 publishdir = "public"
 DefaultContentLanguage = "en"
+# disable pluralise 
+pluralizeListTitles = false
 
 [Author]
-  name = "David Mullins"
-  email = "me@davit.ie"
+name = "David Mullins"
+email = "me@davit.ie"
 #  facebook = "username"
 #  googleplus = "+username" # or xxxxxxxxxxxxxxxxxxxxx
-  gitlab = "DavitTec"
-  github = "DavitTec"
-  twitter = "_Davit"
+gitlab = "DavitTec"
+github = "DavitTec"
+twitter = "_Davit"
 #  reddit = "DavitTec"
-  linkedin = "davidpmullins"
+linkedin = "davidpmullins"
 #xing = "username"
 
 
 [build]
-  duplicateResourceFiles = false
-  noJSConfigInAssets = false
-  useResourceCacheWhen = 'fallback'
+duplicateResourceFiles = false
+noJSConfigInAssets = false
+useResourceCacheWhen = 'fallback'
 [build.buildStats]
-  disableClasses = false
-  disableIDs = false
-  disableTags = false
-  enable = false
+disableClasses = false
+disableIDs = false
+disableTags = false
+enable = false
 [[build.cacheBusters]]
-  source = '(postcss|tailwind)\.config\.js'
-  target = '(css|styles|scss|sass)'
+source = '(postcss|tailwind)\.config\.js'
+target = '(css|styles|scss|sass)'
 
 [Params]
-  subtitle = "Davit Blog Template for Github Pages"
-  logo = "img/logo.png"
-  favicon = "img/favicon.ico?v=2"
-  dateFormat = "January 2, 2006"
-  commit = false
-  rss = true
-  comments = true
+subtitle = "Davit Blog Template for Github Pages"
+logo = "img/logo.png"
+favicon = "img/favicon.ico?v=2"
+dateFormat = "January 2, 2006"
+commit = false
+rss = true
+comments = true
 
 
 [outputFormats]

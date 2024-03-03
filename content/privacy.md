@@ -7,6 +7,6 @@ show_date: false
 
 This website does not collect visitor data. 
 
-It's 100% open-source and free software licensed under [GPL-3.0 License](https://github.com/davittec/davit.github.io/blob/main/LICENSE). 
+It's 100% open-source and free software licensed under [BSD-4-Clause license](https://github.com/DavitTec/davitogo/blob/master/LICENSE). 
 
 You can checkout [the project repo](https://github.com/davittec/davittec.github.io) to see all the code.
