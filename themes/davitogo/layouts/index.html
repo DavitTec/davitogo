@@ -1,0 +1,8 @@
+{{/* Comments are placed between these anchors */}}
+{{ define "main" }}
+{{- partial "frontpage-head.html" . }}
+{{ with .Content  -}}
+{{ . }}
+{{- partial "projects.html" -}}
+{{ end }}
+{{ end }}

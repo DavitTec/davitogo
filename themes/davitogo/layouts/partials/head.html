@@ -1,0 +1,34 @@
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+{{ $outputFormats := partial "outputformats.html" . -}}
+{{ if and hugo.IsProduction (ne $outputFormats "print") -}}
+    <meta name="robots" content="index, follow">
+  {{ else -}}
+    <meta name="robots" content="noindex, nofollow">
+{{ end -}}
+
+  <title>
+    {{- if .IsHome -}}
+      {{ .Site.Title -}}
+    {{ else -}}
+      {{ with .Title }}{{ . }} | {{ end -}}
+      {{ .Site.Title -}}
+    {{ end -}}
+  </title>
+
+
+
+
+  {{- with .Description | default .Params.subtitle | default .Summary -}}
+    <meta name="description" content="{{ . }}">
+    <meta property="og:description" content="{{ . }}">
+    <meta name="twitter:description" content="{{ . | truncate 200 }}">
+  {{- end }}
+  {{ partialCached "favicons.html" . }}
+  {{- with .Site.Params.favicon }}
+    <link href='{{ . | absURL }}' rel='icon' type='image/x-icon' />
+  {{- end -}}
+
+</head>

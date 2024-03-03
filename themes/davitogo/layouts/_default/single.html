@@ -1,0 +1,5 @@
+{{ define "main" }}
+{{ if .Params.companyname }}{{ .Params.companyname }}{{ end }}
+<p><h2>{{ if .Title }}{{ .Title}}{{ end }}</h2> </p>
+{{ .Content }}
+{{ end }}

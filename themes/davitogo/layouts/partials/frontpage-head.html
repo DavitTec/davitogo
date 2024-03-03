@@ -1,0 +1,13 @@
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  {{- $title := print .Title " - " .Site.Title }} {{ if .IsHome }}{{ $title = .Site.Title }}{{- end }}
+  {{- with .Description | default .Params.subtitle | default .Summary -}}
+    <meta name="description" content="{{ . }}">
+    <meta property="og:description" content="{{ . }}">
+    <meta name="twitter:description" content="{{ . | truncate 200 }}">
+  {{- end }}
+  {{- with .Site.Params.favicon }}
+    <link href='{{ . | absURL }}' rel='icon' type='image/x-icon' />
+  {{- end -}}
+</head>
