@@ -22,8 +22,53 @@ For more information about this Project and theme, head over to the [About page]
 
 ## Getting started
 
+Let initial Hogo Structure in the same directory for our project. 
+We assume init inside non-empty directory
 
-## Features
+```bash
+hugo new site --force .
+```
+
+Changed [config.toml](config.toml) contents to reflect the details of your site.
+
+```bash
+baseURL = "http://localhost:1313/"
+languageCode = "en-us"
+title = "Davitogo"
+```
+
+We are going to add new theme skeleton so we can add and change some of the theme configuration [theme.toml](themes/davitogo/theme.toml)
+
+```bash
+hugo new theme davitogo
+```
+
+Features
+
+## Visual Code 
+
+This project comes with settings for [Visual code](https://code.visualstudio.com/) and extension recommendations
+
+You can view recommended extensions within VScode
+
+```bash
+Ctrl+Shift+p 
+> Show Recommended Extensions
+```
+
+Because config file are TOML, I added an extension to Visualcode to help with formatting.
+
+- [Even Better TOML](https://marketplace.visualstudio.com/items?itemName=tamasfe.even-better-toml&ssr=false#user-content-toml-version-100-support)
+
+  - There is an issue with "theme.toml
+
+    ```bash
+    
+    ```
+
+    
+
+---
 
 ## References
 

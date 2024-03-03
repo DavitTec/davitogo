@@ -10,15 +10,52 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+
+
+## [0.0.2] - 2024-03-03
+
 ### Added
 
 - Basic Hugo Theme file structure
 
-### Changed
+- .vscode
+
+  - extensions.json
+
+- archetypes/default.md
+
+- config.toml
+
+- themes/
+
+  - LICENSE
+  - archetypes/
+    - default.md
+
+
+  - layouts/
+    - 404.html
+    - _default/
+      - baseof.html
+      - list.html
+      - single.html
+
+    - index.html
+    - partials/
+      - footer.html
+      - head.html
+      - header.html
+
+  - theme.toml
+
+### Modified
 
 - CHANGELOG.md
+- README.md
 
 ### Removed
+
+
 
 ## [0.0.1] - 2024-02-27
 

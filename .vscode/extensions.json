@@ -1,0 +1,9 @@
+{
+  "recommendations": [
+    "tamasfe.even-better-toml",
+    "field.hugo-pack",
+    "golang.go",
+    "rusnasonov.vscode-hugo",
+    "kaellarkin.hugo-shortcode-syntax"
+  ]
+}
