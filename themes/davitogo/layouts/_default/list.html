@@ -1,14 +1,17 @@
 {{ define "main" }}
-<section >
-  <h1 >
+<section>
+  <h1>
     {{ .Title }}
   </h1>
-  <div ></div>
-    {{ range .Pages.ByPublishDate.Reverse }}
-    <a href="{{ .RelPermalink }}" >
-      {{ .Title }}
-      <span>// {{ .Date.Format "2006-01-02" }}</span>
-    </a>
+  <div>
+    {{ range .Pages.ByLinkTitle }}
+    <ul>
+      <!-- Renders the li.html content view for each content/posts/*.md -->
+      <a href="{{ .RelPermalink }}">
+        {{ .LinkTitle }}
+        <span>- {{ .Date.Format "2006-01-02" }}</span>
+      </a>
+    </ul>
     {{ end }}
   </div>
 </section>

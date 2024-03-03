@@ -7,7 +7,7 @@
 We are building a new Hugo Theme, called ***davitogo*** for our
 own use on a hugo static website project (later to be published).
 
-This theme is *work in progress* development and version is [0.0.3](CHANGELOG.md#003)
+This theme is *work in progress* development and version is [0.0.4](CHANGELOG.md#004)
 The theme can be accessed and downloaded from Gitbhub repository
 [github.com/DavitTec/davitogo](github.com/DavitTec/davitogo)
 

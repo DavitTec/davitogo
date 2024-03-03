@@ -1,3 +1,8 @@
+# Build
+##  comment out ’public’ directory beloe when we are ready to build and deploy
+public
+
+
 # Logs
 logs
 *.log
@@ -6,6 +11,9 @@ yarn-debug.log*
 yarn-error.log*
 lerna-debug.log*
 .pnpm-debug.log*
+
+
+
 
 
 #source

@@ -1,9 +1,20 @@
 <header>
   <div>
-    <a href="/">DAVIT</a>
+
+    <div class="logo-container">
+      <div class="logo-img-border">
+        {{ if isset .Site.Params "logo" }}
+        <a title="{{ .Site.Title }}" href="{{ "" | absLangURL }}">
+          <img class="logo-img" src="{{ .Site.Params.logo | absURL }}"
+            alt="{{ .Site.Title }}" />
+        </a>
+        {{ end }}
+      </div>
+    </div>
+
     <nav>
       <a href="/">Home</a>
-      <a href="/posts">Blog</a>
+      <a href="/posts">Posts</a>
       <a href="/about">About</a>
       <a href="/contact">Contact</a>
     </nav>

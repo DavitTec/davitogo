@@ -11,6 +11,17 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Added
+
+- Adding various changes to the pages and fix the POST listing on POST pages
+- Added another Post page 02
+- Deleted *Public* folder as we are not ready fr build or deployment
+
+### Changes
+
+- Made changes to **davitogo** theme
+  - list, footer, head and header
+
 ## [0.0.3] - 2024-03-03
 
 For the full list of changes, see the [0.0.3](https://github.com/davittec/davitogo/releases/v0.0.3) release notes.
@@ -18,7 +29,7 @@ We mention some noteworthy changes here:
 
 ### Changes
 
-- Modified the theme *theme/davitogo* with updatrd content and added some static content including favicons
+- Modified the theme *theme/davitogo* with updaupdated content and added some static content including favicons
   - review the choses Favicons pack
 - modified Head and Headers with some meta data
 - Still in development mode
