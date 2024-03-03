@@ -29,7 +29,7 @@ For more information about this Project and theme, head over to the [About page]
 
 ## Features
 
-Head over to [Changelog](CHANGELOG) to see the list of features and additions as the project progresses.  
+Head over to [Changelog](changelog) to see the list of features and additions as the project progresses.  
 
 If you don't want any content here.
 

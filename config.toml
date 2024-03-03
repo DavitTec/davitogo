@@ -2,11 +2,26 @@ baseURL = "http://localhost:1313/"
 languageCode = "en-us"
 title = "Davitogo"
 theme = "davitogo"
+publishdir = "public"
+DefaultContentLanguage = "en"
+
+[build]
+duplicateResourceFiles = false
+noJSConfigInAssets = false
+useResourceCacheWhen = 'fallback'
+[build.buildStats]
+disableClasses = false
+disableIDs = false
+disableTags = false
+enable = false
+[[build.cacheBusters]]
+source = '(postcss|tailwind)\.config\.js'
+target = '(css|styles|scss|sass)'
 
 
 [outputFormats]
-  [outputFormats.print]
-    baseName = "index"
-    isHTML = true
-    mediaType = "text/html"
-    permalinkable = false
+[outputFormats.print]
+baseName = "index"
+isHTML = true
+mediaType = "text/html"
+permalinkable = false

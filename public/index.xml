@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>HOME on Davitogo</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content in HOME on Davitogo</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 09 Apr 2023 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>My First Post</title>
+      <link>http://localhost:1313/posts/my-first-post/</link>
+      <pubDate>Tue, 27 Feb 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/posts/my-first-post/</guid>
+      <description>&lt;p&gt;Hugo automatically takes the first 70 words of your content as its summary and stores it into the.&lt;/p&gt;
+&lt;p&gt;Summary variable&lt;/p&gt;
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+incididunt ut labore et dolore magna aliqua. Pellentesque eu tincidunt tortor
+aliquam nulla facilisi cras fermentum odio. A erat nam at lectus urna duis.
+Sed velit dignissim sodales ut eu sem. Lectus urna duis convallis convallis
+tellus. Diam sit amet nisl suscipit adipiscing bibendum est. Sed felis eget
+velit aliquet sagittis id consectetur. Vulputate dignissim suspendisse in est
+ante in nibh mauris cursus. Morbi quis commodo odio aenean. Mollis nunc sed id
+semper risus in hendrerit gravida rutrum.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>About</title>
+      <link>http://localhost:1313/about/</link>
+      <pubDate>Sun, 09 Apr 2023 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/about/</guid>
+      <description>Davitogo is a Hugo template theme and is a static site engine written in Go.
+It makes use of a variety of open source projects including:
+ Cobra Viper J Walter Weatherman Cast  Learn more and contribute on GitHub.</description>
+    </item>
+    
+    <item>
+      <title>Projects</title>
+      <link>http://localhost:1313/projects/</link>
+      <pubDate>Sun, 11 Apr 2021 13:08:21 +0300</pubDate>
+      
+      <guid>http://localhost:1313/projects/</guid>
+      <description>DavitTogo Theme </description>
+    </item>
+    
+    <item>
+      <title>Contact</title>
+      <link>http://localhost:1313/contact/</link>
+      <pubDate>Tue, 23 Mar 2021 21:46:40 +0300</pubDate>
+      
+      <guid>http://localhost:1313/contact/</guid>
+      <description>E-mail: me@davit.ie
+Github: https://github.com/davittec
+Twitter: https://twitter.com/_davit
+YouTube: https://www.youtube.com/channel/DAVIT
+LinkedIn: https://linkedin.com/company/davit</description>
+    </item>
+    
+    <item>
+      <title>Privacy</title>
+      <link>http://localhost:1313/privacy/</link>
+      <pubDate>Tue, 23 Mar 2021 21:46:40 +0300</pubDate>
+      
+      <guid>http://localhost:1313/privacy/</guid>
+      <description>This website does not collect visitor data.
+It&amp;rsquo;s 100% open-source and free software licensed under GPL-3.0 License.
+You can checkout the project repo to see all the code.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://localhost:1313/changelog/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/changelog/</guid>
+      <description>Davitogo Changelog All notable changes to this project will be documented in this file. The format is based on Keep a Changelog, and this project adheres to Semantic Versioning.
+Unreleased 0.0.3 - 2024-03-03 For the full list of changes, see the 0.0.3 release notes. We mention some noteworthy changes here:
+Changes  Modified the theme theme/davitogo with updatrd content and added some static content including favicons  review the choses Favicons pack   modified Head and Headers with some meta data Still in development mode  0.</description>
+    </item>
+    
+    <item>
+      <title>Search</title>
+      <link>http://localhost:1313/search/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/search/</guid>
+      <description>Results from static site search implemented using Fusejs, jquery and mark.js. &amp;ndash; Source</description>
+    </item>
+    
+    <item>
+      <title>Whoops! Page not found</title>
+      <link>http://localhost:1313/404/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/404/</guid>
+      <description>That page can&amp;rsquo;t be found.
+Our latest content is on the homepage.</description>
+    </item>
+    
+  </channel>
+</rss>
