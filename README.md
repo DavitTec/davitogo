@@ -7,11 +7,11 @@
 We are building a new Hugo Theme, called ***davitogo*** for our
 own use on a hugo static website project (later to be published).
 
-This theme is *work in progress* development and version is [0.0.1](CHANGELOG.md#[0.0.1] )
-The theme can be accessed and downloaded from Gitbhub repository 
+This theme is *work in progress* development and version is [0.0.3](CHANGELOG.md#003)
+The theme can be accessed and downloaded from Gitbhub repository
 [github.com/DavitTec/davitogo](github.com/DavitTec/davitogo)
 
-You will need to have the latest version of [Hugo][1] 
+You will need to have the latest version of [Hugo][1]
 
 The plan is to have a theme which supports content on your front page
 and some basic page structure.
@@ -22,30 +22,22 @@ For more information about this Project and theme, head over to the [About page]
 
 ## Getting started
 
-Let initial Hogo Structure in the same directory for our project. 
-We assume init inside non-empty directory
+Download the package into a new directory
 
-```bash
-hugo new site --force .
+``bash
+
+git clone https://github.com/DavitTec/davitogo.git .
+
 ```
 
-Changed [config.toml](config.toml) contents to reflect the details of your site.
 
-```bash
-baseURL = "http://localhost:1313/"
-languageCode = "en-us"
-title = "Davitogo"
-```
 
-We are going to add new theme skeleton so we can add and change some of the theme configuration [theme.toml](themes/davitogo/theme.toml)
 
-```bash
-hugo new theme davitogo
-```
+## Features
 
-Features
 
-## Visual Code 
+
+## Visual Code
 
 This project comes with settings for [Visual code](https://code.visualstudio.com/) and extension recommendations
 
