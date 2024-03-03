@@ -24,18 +24,24 @@ For more information about this Project and theme, head over to the [About page]
 
 Download the package into a new directory
 
-``bash
+
+```bash
 
 git clone https://github.com/DavitTec/davitogo.git .
 
 ```
 
+Start local server
 
+```bash
+hugo server -D
+```
 
 
 ## Features
 
-
+- Version  [0.0.3](CHANGELOG.md#003) only offers basic page structure with no CSS styling.
+- Version  [0.0.2](CHANGELOG.md#002) only offers skeleton hugo structure with no CSS styling.
 
 ## Visual Code
 
