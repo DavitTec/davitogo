@@ -1,5 +1,6 @@
 ---
 title: # Davitogo Changelog
+draft: false
 ---
 
 # Davitogo Changelog
