@@ -8,12 +8,15 @@ page:
 description: Basics
 date:
 draft: true 
+version: "0.0.3"
 ---
 
 ## Front Page Content
 
 We are building a new Hugo Theme, called ***davitogo***.  
-This theme is *work in progress* development and version is 0.0.1
+This theme is *work in progress* development and
+Version {{< param "version" >}}
+
 The theme can be accessed and downloaded from Gitbhub repository 
 [github.com/DavitTec/davitogo](github.com/DavitTec/davitogo)
 
@@ -22,8 +25,6 @@ The plan is to have a theme which supports content on your front page and some b
 The focus is on style and structure not content. However, we may develop a documents directory about the use of this template under */davitogo*.
 
 For more information about this Project and theme, head over to the [About page](about.md)
-
-
 
 ## Getting started
 

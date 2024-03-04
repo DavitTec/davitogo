@@ -36,6 +36,7 @@ source = '(postcss|tailwind)\.config\.js'
 target = '(css|styles|scss|sass)'
 
 [Params]
+version = "0.0.3"
 subtitle = "Davit Blog Template for Github Pages"
 logo = "img/logo.png"
 favicon = "img/favicon.ico?v=2"
@@ -51,3 +52,14 @@ baseName = "index"
 isHTML = true
 mediaType = "text/html"
 permalinkable = false
+
+
+[languages]
+  [languages.de]
+    languageCode = 'de-DE'
+    languageName = 'Deutsch'
+    weight = 1
+  [languages.en]
+    languageCode = 'en-UK'
+    languageName = 'English'
+    weight = 2

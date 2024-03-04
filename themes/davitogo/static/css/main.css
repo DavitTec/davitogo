@@ -1,4 +1,25 @@
 .logo-container img {
-
-  height: 50px;
+  height: 60px;
 }
+
+/* FOOTER START */
+
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 60px;
+  font-size: 12px;
+}
+
+.footerLinks {
+  align-items: right;
+}
+
+.socialIcons {
+  display: flex;
+  gap: 4px;
+}
+
+
+/* FOOTER END */

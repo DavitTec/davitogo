@@ -1,28 +1,27 @@
-<br />
-<hr />
-<footer>
-  <div>
-    <ul class="list-inline text-center footer-links">
-      <!-- Links and icons -->
-      {{ range .Site.Data.davitogo.social.social_icons }}
-        {{- if isset $.Site.Author .id }}
-          <li>
-            <a href="{{ printf .url (index $.Site.Author .id) }}" title="{{ .title }}">
-              <span class="fa-stack fa-sm">
-                <i class="fa fa-circle fa-stack-2x"></i>
-                <i class="{{ .icon }} fa-stack-1x fa-inverse"></i>
-              </span>
-            </a>
-            
-          </li>
-        {{- end -}}
-      {{ end }}
-      </ul>
-  </div>
+<hr>
+<footer class="footer">
   <div>
     <a href="/privacy">Privacy</a>
     <span>Last update: {{ now.Format "Jan 2, 2006 15:04 (MST)" }}</span>
   </div>
+  <div class="footerLinks">
+    <div class="list-inline text-center footer-links">
+      <div class="socialIcons">
+        <!-- Links and icons -->
+        {{ range .Site.Data.davitogo.social.social_icons }}
+        {{ if isset $.Site.Author .id }}
+        <div>
+          <a href="{{ printf .url (index $.Site.Author .id) }}"
+            title="{{ .title }}">
+            <span class="fa-stack fa-sm">
+              <i class="fa fa-circle fa-stack-2x"></i>
+              <i class="{{ .icon }} fa-stack-1x fa-inverse"></i>
+            </span>
+          </a>
+        </div>
+        {{ end }}
+        {{ end }}
+      </div>
+    </div>
+  </div>
 </footer>
-
-footer-end
